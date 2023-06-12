@@ -4,14 +4,14 @@ body{
 
 div{
     height: 100px;
-    width: 150px;
+    width: 50px;
     display: inline-block;
     border: 2px solid black;
 }
 
 #container{
     width: 600px;
-    height: 600px;
+    height: 300px;
 
     display: flex;
     flex-direction: row;
@@ -20,31 +20,36 @@ div{
     /* flex-direction: row-reverse; */
 
     /* justify-content: flex-end; */    
-    /* justify-content: flex-start; */
-    justify-content: center;
+    justify-content: flex-start;
+    /* justify-content: center; */
     /* justify-content: space-around; */
     /* justify-content: space-between; */
     /* justify-content: space-evenly; */
 
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
-    align-items: center;
+    /* align-items: center; */
 
-    align-content: center;
+    /* align-content: center; */
+    /* align-content: flex-start; */
 }
 
 #box1{
     background-color: aqua;
+    /* align-self: flex-end; */
 }
 
 #box2{
     background-color: rgb(238, 255, 0);
     height: 200px;
+    /* flex-shrink: 1; */
+    flex-grow: 1;
 }
 
 #box3{
     background-color: rgb(140, 0, 255);
     height: 75px;
+    /* align-self: flex-end; */
 }
 
 #box4{

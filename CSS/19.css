@@ -1,0 +1,28 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid rgb(245, 223, 32);
+    border-top: 20px solid rgb(7, 157, 226);
+
+    animation: spinAnimate 3s ease-in 0s infinite normal;
+}
+
+@keyframes spinAnimate{
+    from{
+        transform:rotate(0deg)
+    }
+    25%{
+        background-color:chocolate
+    }
+    50%{
+        background-color: crimson;
+    }
+    75%{
+        background-color: rgb(69, 207, 80);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
