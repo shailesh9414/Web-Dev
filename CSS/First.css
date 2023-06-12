@@ -1,0 +1,35 @@
+h1{
+    color:red;
+    font-size: small;
+    text-align: center;
+    width: 500px;
+    text-decoration: rgb(26, 0, 175) wavy underline;
+    text-transform: uppercase;
+}
+
+#heading1{
+    color: #5f5454;
+    width: 500px;
+    text-decoration: line-through;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.paraclass{
+    font-size: x-large;
+    width: 500px;
+
+}
+
+div, footer{
+    background-color: chocolate;
+    width: 500px;
+}
+
+p.paraclass{
+    background-color: blueviolet;
+}

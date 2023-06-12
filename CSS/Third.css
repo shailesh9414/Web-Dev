@@ -1,0 +1,82 @@
+/* universal selector */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1{
+    background-color: rgb(129, 127, 255);
+
+    /* border-style: solid;
+    border-color: rgb(141, 120, 2);
+    border-width: 3px; */
+
+    /* border-radius: 10px; */
+
+    /* border-top-left-radius: 10px; */
+
+    /* border-top: solid yellow 3px;
+    border-bottom: solid rgb(255, 0, 0) 3px; */
+
+    /* right, left border is also avilable. */
+
+    border:solid black 3px;
+    border-radius: 5px;
+
+    width: 350px;
+
+    /* height: 150px; */
+    
+}
+
+.firstpara{
+    background-color:rgb(231, 147, 20);
+    border:solid black 3px;
+    border-radius: 5px;
+    width: 350px;
+    /* height: 150px; */
+
+}
+
+.secondpara{
+    background-color: brown;
+    border:solid black 3px;
+    border-radius: 5px;
+    width: 350px;
+
+    /* padding: 50px;
+
+    margin: 70px; */
+
+}
+
+.thirdpara{
+    background-color: coral;
+    border:solid black 3px;
+    border-radius: 5px;
+    width: 350px;
+
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+
+    /* padding: 15px 25px 35px 45px; */
+
+    /* padding: 20px 40px; */
+
+    /* margin: 40px; */
+
+    /* margin-top: 100px; */
+
+}
+
+span{
+    background-color: skyblue;
+    border:solid black 3px;
+    border-radius: 5px;
+    width: 350px;
+    height: 150px;
+}

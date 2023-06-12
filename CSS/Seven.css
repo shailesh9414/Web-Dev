@@ -1,0 +1,19 @@
+#a1{
+    background-color: red;
+}
+
+#a2{
+    background-color: brown;
+}
+
+#a3{
+    background-color: blueviolet;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}

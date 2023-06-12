@@ -1,0 +1,26 @@
+p{
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+#firstpara{
+    background-color: yellow;
+    color: brown;
+}
+
+#secondpara{
+    color: rgb(155, 37, 190);
+    background-color: #291ebd4b;
+}
+
+#thirdpara{
+    color: rgb(250, 188, 19);
+    background-color: rgb(24, 140, 175);
+}
+
+.firstclass{
+    background-color: hsl(32, 100%, 50%);
+}
